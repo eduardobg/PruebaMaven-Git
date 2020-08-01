@@ -25,7 +25,7 @@ public class HelloWorld {
         System.out.println("----------------------");
         
         //InputStream arch = HelloWorld.class.getClassLoader().getResourceAsStream("informes/Recibo.jrxml");
-        InputStream arch = HelloWorld.class.getClassLoader().getResourceAsStream("informes/Factura.jrxml");//No funciona por problemas con las imagenes
+        InputStream arch = HelloWorld.class.getClassLoader().getResourceAsStream("informes/Factura.jrxml");
         System.out.println( "Ubicacion de reporte " + arch.toString() );
         /*
         List<RecibosDatos> lr= new ArrayList();
